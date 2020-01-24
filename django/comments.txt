@@ -1,0 +1,11 @@
+django-admin startproject blabla
+python3 manage.py runserver
+new console
+py3 manage.py startapp blabla -> create new app
+go to app views crate func like index returns httprespone
+create urls file add path
+go to main urls file add path
+
+create class in models
+python3 manage.py makemigrations
+python3 manage.py migrate   -> create db
