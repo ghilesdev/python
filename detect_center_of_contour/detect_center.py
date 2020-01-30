@@ -22,15 +22,17 @@ cnts=imutils.grab_contours(cnts)
 
 #loop over the contours
 for c in cnts:
-    #print(type(c))
-    #print(c.shape)
-    #print(c)
+    print(type(c))
+    print(c.shape)
+    print(len(c))
     
     
     #capture the center of the contour
     M=cv2.moments(c)
+    #add 1e-10 to avoid devision by zero
     cx=int(M["m10"]/(M["m00"]+1e-10))
     cy=int(M["m01"]/(M["m00"]+1e-10))
+
     
     #drawing the contour and its center
     cv2.drawContours(img, [c], -1, (0,255,0), 2)
