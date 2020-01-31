@@ -4,6 +4,10 @@ import numpy as np
 import argparse
 import cv2
 import imutils
+import PIL.Image
+import pytesseract
+import os
+
 
 # loading the argument parser
 ap = argparse.ArgumentParser()
@@ -67,5 +71,14 @@ cv2.imshow('original', imutils.resize(orig, height=650))
 cv2.imshow('scanned', imutils.resize(warped, height=650))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+filename='{}.png'.format(os.getpid())
+cv2.imwrite(filename, warped)
+
+text=pytesseract.image_to_string(PIL.Image.open(filename))
+os.remove(filename)
+
+print("STEP 4: recognizing text")
+print(text)
 
 
