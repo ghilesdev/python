@@ -15,7 +15,7 @@ img= cv2.imread(args['image'])
 
 #finding black shapes 
 lower=np.array([0,0,0])
-upper=np.array([15,15,15])
+upper=np.array([30,30,30])
 shape_mask=cv2.inRange(img, lower, upper)
 
 #finding countours

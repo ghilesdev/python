@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f04f2fc-7f8d-4a2b-bbce-1ae3a9c3c2b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_center_of_contour/detect_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_center_of_contour/detect_center.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape/shape_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/shape/shape_detection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +60,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\codes\python\doc_scanner\mymodule" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\codes\python\doc_scanner\mymodule" />
     </key>
   </component>
   <component name="RunManager" selected="Python.pan">
@@ -255,7 +256,9 @@
       <workItem from="1580459630535" duration="12862000" />
       <workItem from="1580483978362" duration="2684000" />
       <workItem from="1580675389391" duration="1701000" />
-      <workItem from="1580718397567" duration="8784000" />
+      <workItem from="1580718397567" duration="20178000" />
+      <workItem from="1580766345992" duration="95000" />
+      <workItem from="1580834361476" duration="735000" />
     </task>
     <servers />
   </component>
@@ -291,19 +294,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1580468051276" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1580396203257">
+    <state x="277" y="56" key="SettingsEditor" timestamp="1580834447159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580396203257" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1580719257342">
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580834447159" />
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1580834363382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1579965616421" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580719257342" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1580462356878">
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580834363382" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1580729041485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580462356878" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580729041485" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$pan.coverage" NAME="pan Coverage Results" MODIFIED="1580472491203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
