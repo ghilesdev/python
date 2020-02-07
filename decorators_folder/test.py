@@ -1,4 +1,4 @@
-from decorators import *
+from .decorators import *
 
 #from decorators_folder.decorators import *
 
