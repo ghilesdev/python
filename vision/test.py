@@ -15,6 +15,7 @@ image =cv2.imread(args['image'])
 orig=image.copy()
 gray=cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray_blurred=cv2.bilateralFilter(gray.copy(), 9, 75, 75)
+gray_blurred_g=cv2.GaussianBlur(gray.copy(), (5, 5), 0)
 # cv2.imshow('blur', gray_blurred)
 # cv2.waitKey(0)
 
@@ -28,22 +29,25 @@ image = cv2.resize(image, (int(newX), int(newY)))
 
 edges = cv2.Canny(gray, 60, 255)
 edges_blurred = cv2.Canny(gray_blurred, 60, 255)
+edges_blurred_g = cv2.Canny(gray_blurred_g, 60, 255)
 # cv2.imshow('edges blurred', edges_blurred)
 # cv2.waitKey(0)
 # thresh = cv2.threshold(edges, 200, 255, cv2.THRESH_BINARY)
 
 contours, hi = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 contours_b, hi_b = cv2.findContours(edges_blurred, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+contours_bg, hi_bg = cv2.findContours(edges_blurred_g, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 print(f'found {len(contours)} contours on non blurred img')
 print(f'found {len(contours_b)} contours on  blurred img')
+print(f'found {len(contours_bg)} contours on  blurred img')
 
-# cnts, hier=cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-# print(len(cnts))
-cv2.drawContours(image, contours, -1,(0,255,0),1)
 black_image = np.zeros_like(image)
-# black_image_b = np.zeros((750,750))
+black_image_b = np.zeros_like(image)
+black_image_bg = np.zeros_like(image)
+cv2.drawContours(image, contours, -1,(0,255,0),1)
 cv2.drawContours(black_image, contours, -1,(0,255,0),1)
-cv2.drawContours(orig, contours_b, -1,(0,255,0),1)
+cv2.drawContours(black_image_b, contours_b, -1,(0,255,0),1)
+cv2.drawContours(black_image_bg, contours_bg, -1,(0,255,0),1)
 # cv2.imshow('black with contours', orig)
 # cv2.waitKey(0)
 
@@ -88,19 +92,20 @@ cv2.drawContours(orig, contours_b, -1,(0,255,0),1)
 # cv2.waitKey()
 
 
-plt.subplot(1, 2, 1)
+plt.subplot(2, 2, 1)
 plt.imshow(black_image)
-cv2.imwrite('contours.jpg', black_image)
-plt.imsave('plt.jpg', black_image)
-
-
-
 plt.title('contours of upscaled image')
-plt.grid(False)
 
-plt.subplot(1, 2, 2)
+plt.subplot(2, 2, 2)
+plt.imshow(image)
+plt.title('not scaled image with contours')
 
-plt.imshow(orig)
+plt.subplot(2, 2, 3)
+plt.imshow(black_image_b)
+plt.title('not scaled image with contours')
+
+plt.subplot(2, 2, 4)
+plt.imshow(black_image_bg)
 plt.title('not scaled image with contours')
 
 
