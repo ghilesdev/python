@@ -1,4 +1,4 @@
-'''import  random
+"""import  random
 
 playerhp=260
 ennemyatkl=60
@@ -36,8 +36,8 @@ while playerhp>0:
     print("you have low health")
     break
 
- '''
+ """
 from classes.Ennemy import Ennemy
 
-ennemy=Ennemy(50,60)
-print("Hp ",ennemy.gethp())
+ennemy = Ennemy(50, 60)
+print("Hp ", ennemy.gethp())

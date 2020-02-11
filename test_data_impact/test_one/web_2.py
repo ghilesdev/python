@@ -4,7 +4,7 @@ import requests
 
 
 def http_request():
-    url = 'https://httpbin.org/anything'
+    url = "https://httpbin.org/anything"
     params = {"msg": "welcomeuser", "isadmin": 1}
     headers = {"User-Agent": "Chrome"}
     r = requests.post(url=url, headers=headers, params=params)

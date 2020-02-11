@@ -2,9 +2,9 @@ import cgi, cgitb
 
 import Cookie
 
-form=cgi.FieldStorage
-username=form["username"].value
-email=form["emailaddress"].value
+form = cgi.FieldStorage
+username = form["username"].value
+email = form["emailaddress"].value
 print("Content-type:text/html\r\n\r\n")
 print("<html>")
 print("<head>")

@@ -216,6 +216,6 @@ def parse(f):
     return listShapes
 
 
-if __name__ == '__main__':
-    dxf = ezdxf.readfile('1.dxf')
+if __name__ == "__main__":
+    dxf = ezdxf.readfile("1.dxf")
     shapes = parse(dxf)

@@ -2,12 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f04f2fc-7f8d-4a2b-bbce-1ae3a9c3c2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vision/mahotas/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision/mahotas/skimage_vs_ocv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision/mahotas/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GA/ga.py" beforeDir="false" afterPath="$PROJECT_DIR$/GA/ga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GA/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/GA/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IA/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/IA/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IA/opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/IA/opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IA/sanstitre0.py" beforeDir="false" afterPath="$PROJECT_DIR$/IA/sanstitre0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IA/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/IA/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NN/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NN/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/pan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/pan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attack.py" beforeDir="false" afterPath="$PROJECT_DIR$/attack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backgroung_sub.py" beforeDir="false" afterPath="$PROJECT_DIR$/backgroung_sub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle/classes/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/classes/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle/classes/magic.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/classes/magic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cgi programming/cgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cgi programming/cgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ennemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ennemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/inhertance.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/inhertance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientSocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientSocket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv/cv.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv/cv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators_folder/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_folder/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators_folder/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_folder/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dense_optical.py" beforeDir="false" afterPath="$PROJECT_DIR$/dense_optical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_center_of_contour/detect_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_center_of_contour/detect_center.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/migrations/0002_offer.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/migrations/0002_offer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/webapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/webapp/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/webapp/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_scanner/mymodule/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc_scanner/mymodule/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_scanner/mymodule/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc_scanner/mymodule/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_scanner/scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc_scanner/scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dxf/another_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxf/another_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dxf/dxf_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxf/dxf_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dxf/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxf/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dxf/polyline.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxf/polyline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dxf/sdxf.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxf/sdxf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_detect/cat_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_detect/cat_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_detect/object_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_detect/object_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_programming/functionnal.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_programming/functionnal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_programming/parralel.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_programming/parralel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_programming/test_concurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_programming/test_concurrent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/multithread/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/networking/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/networking/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv-face-recognition/extract_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv-face-recognition/extract_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv-face-recognition/recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv-face-recognition/recognize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv-face-recognition/recognize_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv-face-recognition/recognize_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv-face-recognition/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv-face-recognition/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optical_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/optical_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/videocapture.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/videocapture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/re/reg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/recur.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/recur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto/tuto/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto/tuto/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto/tuto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto/tuto/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto/tuto/spiders/scrapy_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto/tuto/spiders/scrapy_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto2/tuto2/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto2/tuto2/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto2/tuto2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto2/tuto2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap/tuto2/tuto2/spiders/scrapy_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap/tuto2/tuto2/spiders/scrapy_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape/detect_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/shape/detect_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape/shape_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/shape/shape_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/socketServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template match/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template match/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template match/tm.py" beforeDir="false" afterPath="$PROJECT_DIR$/template match/tm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data_impact/test_five/src/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data_impact/test_five/src/class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data_impact/test_one/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data_impact/test_one/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data_impact/test_one/web_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data_impact/test_one/web_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data_impact/test_three/pers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data_impact/test_three/pers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data_impact/test_two/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data_impact/test_two/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_six/scrapy/web/web/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_six/scrapy/web/web/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_six/scrapy/web/web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_six/scrapy/web/web/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_six/scrapy/web/web/spiders/scrapy_spyder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_six/scrapy/web/web/spiders/scrapy_spyder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/reqpillow.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/reqpillow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/requestq.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/requestq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/contour.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/contour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/contour_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/contour_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/mahotas/ocv_hough.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/mahotas/ocv_hough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/mahotas/ski_hough.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/mahotas/ski_hough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/mahotas/skimage_vs_ocv.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/mahotas/skimage_vs_ocv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/mahotas/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/mahotas/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/watershed.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/watershed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/xml_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/xml/xml_handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +150,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -70,7 +166,7 @@
       <recent name="C:\codes\python\doc_scanner\mymodule" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ocv_hough">
+  <component name="RunManager" selected="Python.test3">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="udemy_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,28 +181,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="another_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="udemy_py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dxf" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dxf/another_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,21 +293,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="udemy_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vision" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vision/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.another_test" />
       <item itemvalue="Python.test (3)" />
       <item itemvalue="Python.skimage_vs_ocv" />
       <item itemvalue="Python.ski_hough" />
       <item itemvalue="Python.ocv_hough" />
+      <item itemvalue="Python.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test3" />
         <item itemvalue="Python.ocv_hough" />
         <item itemvalue="Python.ski_hough" />
         <item itemvalue="Python.skimage_vs_ocv" />
         <item itemvalue="Python.test (3)" />
-        <item itemvalue="Python.another_test" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +359,7 @@
       <workItem from="1581065260168" duration="26270000" />
       <workItem from="1581284029013" duration="4136000" />
       <workItem from="1581323237997" duration="18673000" />
-      <workItem from="1581409753467" duration="1967000" />
+      <workItem from="1581409753467" duration="10073000" />
     </task>
     <servers />
   </component>
@@ -282,13 +375,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581410889191" />
+    <state x="548" y="119" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581427457461">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427457461" />
+    <state x="537" y="244" key="#com.intellij.tools.ToolEditorDialog" timestamp="1581427192264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="244" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427192264" />
     <state x="496" y="28" key="#functionnal" timestamp="1580309898749">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="28" key="#functionnal/0.0.1536.824@0.0.1536.824" timestamp="1580309898749" />
-    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581089646485">
+    <state x="410" y="159" width="714" height="665" key="EditFileWatcherDialog" timestamp="1581427487835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="410" y="159" width="714" height="665" key="EditFileWatcherDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427487835" />
+    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581427188706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427188706" />
     <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581089646485" />
     <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1580483964282">
       <screen x="0" y="0" width="1536" height="824" />
@@ -310,10 +416,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1580468051276" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1581346268582">
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581427492535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581346268582" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427492535" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581089678772" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1581285238957">
       <screen x="0" y="0" width="1536" height="824" />
@@ -325,10 +431,10 @@
     <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1579965616421" />
     <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581410286885" />
     <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581323240478" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1580729041485">
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1581417094871">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580729041485" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581417094871" />
     <state x="491" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581006706873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

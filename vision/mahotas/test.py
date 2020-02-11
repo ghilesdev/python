@@ -4,25 +4,24 @@ from PIL import ImageEnhance, Image, ImageFilter, ImageOps
 import cv2
 
 
-
-image=Image.open('2.png')
+image = Image.open("2.png")
 # image = cv2.imread('2.png')
-gray=ImageOps.grayscale(image)
+gray = ImageOps.grayscale(image)
 # enh=ImageEnhance.Contrast(image)
 # enh.enhance(1.3).show("30 percent more contrast")
 
-im1=gray.filter(ImageFilter.BLUR)
-im2=gray.filter(ImageFilter.CONTOUR)
-im3=gray.filter(ImageFilter.FIND_EDGES)
+im1 = gray.filter(ImageFilter.BLUR)
+im2 = gray.filter(ImageFilter.CONTOUR)
+im3 = gray.filter(ImageFilter.FIND_EDGES)
 
-im4=gray.filter(ImageFilter.DETAIL)
-im5=gray.filter(ImageFilter.EMBOSS)
-im6=gray.filter(ImageFilter.SHARPEN)
+im4 = gray.filter(ImageFilter.DETAIL)
+im5 = gray.filter(ImageFilter.EMBOSS)
+im6 = gray.filter(ImageFilter.SHARPEN)
 
-im7=gray.filter(ImageFilter.SMOOTH)
+im7 = gray.filter(ImageFilter.SMOOTH)
 
-im8=gray.filter(ImageFilter.EDGE_ENHANCE)
-im9=gray.filter(ImageFilter.EDGE_ENHANCE_MORE)
+im8 = gray.filter(ImageFilter.EDGE_ENHANCE)
+im9 = gray.filter(ImageFilter.EDGE_ENHANCE_MORE)
 
 # plt.subplot(2, 2, 1)
 # plt.title('BLUR')
@@ -39,16 +38,15 @@ im9=gray.filter(ImageFilter.EDGE_ENHANCE_MORE)
 # plt.show()
 
 plt.subplot(2, 2, 1)
-plt.title('DETAIL')
+plt.title("DETAIL")
 plt.imshow(im4)
 plt.subplot(2, 2, 2)
-plt.title('EMBOSS')
+plt.title("EMBOSS")
 plt.imshow(im5)
 plt.subplot(2, 2, 3)
-plt.title('SHARPEN')
+plt.title("SHARPEN")
 plt.imshow(im6)
 plt.subplot(2, 2, 4)
-plt.title('SMOOTH')
+plt.title("SMOOTH")
 plt.imshow(im7)
 plt.show()
-

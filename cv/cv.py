@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-'''
+"""
 def do_nothing(x):
     return None
 
@@ -28,18 +28,18 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-'''
+"""
 
 
-img=cv2.imread('picture.jpg')
-img=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img = cv2.imread("picture.jpg")
+img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-gray=np.float32(img)
-dst=cv2.cornerHarris(gray,2,3,0.04)
+gray = np.float32(img)
+dst = cv2.cornerHarris(gray, 2, 3, 0.04)
 
-dst=cv2.dilate(dst, None)
-print(dst.max() )
-#img[dst>0.01*dst.max()]=[0,0,255]
-cv2.imshow('window', dst)
-if cv2.waitKey(0) & 0xFF == ord('q'):
+dst = cv2.dilate(dst, None)
+print(dst.max())
+# img[dst>0.01*dst.max()]=[0,0,255]
+cv2.imshow("window", dst)
+if cv2.waitKey(0) & 0xFF == ord("q"):
     cv2.destroyAllWindows()

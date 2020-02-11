@@ -11,7 +11,7 @@ import os
 
 # loading the argument parser
 ap = argparse.ArgumentParser()
-ap.add_argument('-i', '--image', help="path to image")
+ap.add_argument("-i", "--image", help="path to image")
 args = vars(ap.parse_args())
 
 # loading the image, computing the ratio, cloning and resizing
@@ -27,8 +27,8 @@ edged = cv2.Canny(gray, 75, 200)
 
 # showing step one
 print("STEP 1: Edge Detection")
-cv2.imshow('image', image)
-cv2.imshow('edged', edged)
+cv2.imshow("image", image)
+cv2.imshow("edged", edged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
@@ -49,9 +49,9 @@ for c in cnts:
         break
 
 # show the outline of the paper
-print('STEP 2: FINDING the contours')
+print("STEP 2: FINDING the contours")
 cv2.drawContours(image, [screenCnt], -1, (0, 255, 0), 2)
-cv2.imshow('outline', image)
+cv2.imshow("outline", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
@@ -61,24 +61,22 @@ warped = four_points_transform(orig, screenCnt.reshape(4, 2) * ratio)
 
 # convert to grayscale then thresholding finaly apply black and white effect
 warped = cv2.cvtColor(warped, cv2.COLOR_BGR2GRAY)
-#thres=threshold_otsu(warped)
-T = threshold_local(warped, 11,  offset=10, method='gaussian')
-warped = (warped > T).astype('uint8') * 255
+# thres=threshold_otsu(warped)
+T = threshold_local(warped, 11, offset=10, method="gaussian")
+warped = (warped > T).astype("uint8") * 255
 
 # step 3
-print('STEP 3: apply perspective transformation')
-cv2.imshow('original', imutils.resize(orig, height=650))
-cv2.imshow('scanned', imutils.resize(warped, height=650))
+print("STEP 3: apply perspective transformation")
+cv2.imshow("original", imutils.resize(orig, height=650))
+cv2.imshow("scanned", imutils.resize(warped, height=650))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-filename='{}.png'.format(os.getpid())
+filename = "{}.png".format(os.getpid())
 cv2.imwrite(filename, warped)
 
-text=pytesseract.image_to_string(PIL.Image.open(filename))
+text = pytesseract.image_to_string(PIL.Image.open(filename))
 os.remove(filename)
 
 print("STEP 4: recognizing text")
 print(text)
-
-

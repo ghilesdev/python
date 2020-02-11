@@ -7,7 +7,7 @@ def order_points(pts):
     # such that the first entry in the list is the top-left,
     # the second entry is the top-right, the third is the
     # bottom-right, and the fourth is the bottom-left
-    rect = np.zeros((4, 2), dtype='float32')
+    rect = np.zeros((4, 2), dtype="float32")
 
     # the top-left point will have the smallest sum, whereas
     # the bottom-right point will have the largest sum
@@ -47,17 +47,13 @@ def four_points_transform(image, pts):
     # (i.e. top-down view) of the image, again specifying points
     # in the top-left, top-right, bottom-right, and bottom-left
     # order
-    dst=np.array([
-        [0,0],
-        [max_width-1, 0],
-        [max_width, max_height],
-        [0, max_height-1]
-    ], dtype='float32')
+    dst = np.array(
+        [[0, 0], [max_width - 1, 0], [max_width, max_height], [0, max_height - 1]],
+        dtype="float32",
+    )
 
-    #compute the perspective transform matrix
-    M=cv2.getPerspectiveTransform(rect, dst)
-    warped=cv2.warpPerspective(image, M, (max_width, max_height))
+    # compute the perspective transform matrix
+    M = cv2.getPerspectiveTransform(rect, dst)
+    warped = cv2.warpPerspective(image, M, (max_width, max_height))
 
     return warped
-
-

@@ -51,7 +51,9 @@ class Polyline:
         return out
 
     def __repr__(self):
-        return f'Polyline([{", ".join([vertex.__repr__() for vertex in self.vertices])}])'
+        return (
+            f'Polyline([{", ".join([vertex.__repr__() for vertex in self.vertices])}])'
+        )
 
     def __copy__(self):
         cls = self.__class__

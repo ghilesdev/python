@@ -8,8 +8,9 @@ Created on Wed Jan 15 16:21:21 2020
 
 import numpy as np
 import cv2 as cv
-from matplotlib import pyplot as plt 
-'''
+from matplotlib import pyplot as plt
+
+"""
 img=cv.imread('digits.png')
 gray=cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
@@ -39,11 +40,10 @@ print(accuracy)
 
 #saving data
 np.savez('knn_train_ocr.npz',trainData=trainData, train_labels=train_labels)
-'''
-#commented because data of training were saved
-#now loading
-with np.load('knn_train_ocr.npz') as data:
-	print(data.files)
-	trainData=data['trainData']
-	train_labels=data['train_labels']
-	
+"""
+# commented because data of training were saved
+# now loading
+with np.load("knn_train_ocr.npz") as data:
+    print(data.files)
+    trainData = data["trainData"]
+    train_labels = data["train_labels"]

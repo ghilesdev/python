@@ -1,24 +1,24 @@
 import dxfgrabber
 import matplotlib.pyplot as plt
 
-dxf = dxfgrabber.readfile('1.dxf')
+dxf = dxfgrabber.readfile("1.dxf")
 
 # an example on how to access the coordinates of a point found by the variable  explorer
 # print(dxf.blocks._blocks['0']._entities[0].points[0])
 
 # extracting coords for one shape
-#coords = [c for c in dxf.blocks._blocks['22']._entities[0].points]
+# coords = [c for c in dxf.blocks._blocks['22']._entities[0].points]
 
 
 # extracting the shapes as list
 shapes = [shape for shape in dxf.blocks._blocks]
 
-#creating shapes dict from the list above
+# creating shapes dict from the list above
 entities = {k: dxf.blocks._blocks[k] for k in shapes}
-#print(entities['0']._entities[0].points)
+# print(entities['0']._entities[0].points)
 
 # dict of all shapes with their coordinates
-all_entities={k: dxf.blocks._blocks[k]._entities[0].points for k in entities}
+all_entities = {k: dxf.blocks._blocks[k]._entities[0].points for k in entities}
 
 X = []
 Y = []
