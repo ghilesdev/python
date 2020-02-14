@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 
-# from keras.applications import inception_v3
+from keras.applications import inception_v3
 
 import time
 

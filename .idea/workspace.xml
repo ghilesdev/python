@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f04f2fc-7f8d-4a2b-bbce-1ae3a9c3c2b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/python/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/python/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IA/sanstitre0.py" beforeDir="false" afterPath="$PROJECT_DIR$/IA/sanstitre0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../placementcontinu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +69,7 @@
       <recent name="C:\codes\python\doc_scanner\mymodule" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pycalc">
+  <component name="RunManager" selected="Python.designer">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="udemy_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,10 +92,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="designer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="udemy_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/designer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello_qt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udemy_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -108,32 +133,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ocv_hough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pycalc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udemy_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vision/mahotas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vision/mahotas/ocv_hough.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pycalc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="udemy_py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -149,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ski_hough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udemy_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vision/mahotas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vision/mahotas/ski_hough.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,19 +223,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.ski_hough" />
-      <item itemvalue="Python.ocv_hough" />
       <item itemvalue="Python.test3" />
       <item itemvalue="Python.hello_qt" />
       <item itemvalue="Python.pycalc" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.designer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.designer" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.pycalc" />
         <item itemvalue="Python.hello_qt" />
         <item itemvalue="Python.test3" />
-        <item itemvalue="Python.ocv_hough" />
-        <item itemvalue="Python.ski_hough" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +271,10 @@
       <workItem from="1581409753467" duration="10073000" />
       <workItem from="1581498689877" duration="607000" />
       <workItem from="1581586398605" duration="4988000" />
-      <workItem from="1581604573331" duration="8969000" />
+      <workItem from="1581604573331" duration="9844000" />
+      <workItem from="1581628120524" duration="3830000" />
+      <workItem from="1581668218674" duration="2844000" />
+      <workItem from="1581685447698" duration="6251000" />
     </task>
     <servers />
   </component>
@@ -297,11 +306,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="159" width="714" height="665" key="EditFileWatcherDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427487835" />
-    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581604875223">
+    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581670472702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427188706" />
-    <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581604875223" />
+    <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581670472702" />
     <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1580483964282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,16 +340,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1581285238957" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1581586400499">
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1581668220305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1579965616421" />
     <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581410286885" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581586400499" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1581587849429">
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581668220305" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1581691214873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581587849429" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581691214873" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581630913794" />
     <state x="491" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581006706873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
