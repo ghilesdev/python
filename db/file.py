@@ -8,14 +8,13 @@ cursor = db.cursor()
     print((data))
 """
 
-'''
-#creating a new sql query
-sql=""" CREATE TABLE TestTable(
+
+# creating a new sql query
+sql = """ CREATE TABLE UserTable(
     name CHAR(20) NOT NULL,
-     location CHAR(100),
-     gender CHAR(1),
-     age INTEGER)"""
-'''
+     age INTEGER, 
+     job CHAR(100))"""
+
 
 '''
 #inserting a row into the table
@@ -33,10 +32,10 @@ except:
 '''
 
 # update a value in the table
-sql2 = "UPDATE TestTable SET age = 30 WHERE name = 'aghiles'"
+# sql2 = "UPDATE TestTable SET age = 30 WHERE name = 'aghiles'"
 
 try:
-    cursor.execute(sql2)
+    cursor.execute(sql)
     db.commit()
 except:
     db.rollback()
@@ -55,12 +54,12 @@ try:
 except:
     print("unable to fetch data")
 
-sql_delete = "DELETE FROM TestTable WHERE name = 'james'"
-try:
-    cursor.execute(sql_delete)
-    db.commit()
-except:
-    db.rollback()
+# sql_delete = "DELETE FROM TestTable WHERE name = 'james'"
+# try:
+#     cursor.execute(sql_delete)
+#     db.commit()
+# except:
+#     db.rollback()
 
 # closing the database
 db.close()

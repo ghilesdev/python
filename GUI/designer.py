@@ -8,6 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import pymysql
 
 
 class Ui_MainWindow(object):
@@ -90,6 +91,18 @@ class Ui_MainWindow(object):
         print(f"added name {name}")
         print(f"added age {age}")
         print(f"added job {job}")
+        db = pymysql.connect("localhost", "root", "", "users")
+        cursor = db.cursor()
+        # inserting a row into the table
+        sql = """INSERT INTO UserTable (name, age, job) VALUES (%s, %s, %s)"""
+        val = (name, age, job)
+
+        try:
+            # executing the query
+            cursor.execute(sql, val)
+            db.commit()
+        except:
+            db.rollback()
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -100,6 +113,19 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
+
+    db = pymysql.connect("localhost", "root", "", "users")
+    cursor = db.cursor()
+    # sql = """ CREATE TABLE UserTable3(
+    #     name CHAR(20) NOT NULL,
+    #      age INTEGER,
+    #      job CHAR(100))"""
+    # try:
+    #     # executing the query
+    #     cursor.execute(sql)
+    #     db.commit()
+    # except:
+    #     db.rollback()
 
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
