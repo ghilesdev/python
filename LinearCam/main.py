@@ -9,5 +9,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = GUI()
     mainWindow.show()
-    controller(mainWindow)
+    controller(view=mainWindow)
     app.exec_()

@@ -26,14 +26,15 @@ class GUI(QMainWindow):
         image_view.setPixmap(pixmap)
 
         # creating the buttons
-        manualButton = QPushButton("Avance Manuel")
-        autoButton = QPushButton("Automatique")
-        readButton = QPushButton("ouvrir")
+        # TODO mettre tout les widgets en self.widget !!
+        self.manualButton = QPushButton("Avance Manuel")
+        self.autoButton = QPushButton("Automatique")
+        self.readButton = QPushButton("ouvrir")
 
         # adding buttons to the layout
-        layout.addWidget(manualButton, 1, 7, 1, 2)
-        layout.addWidget(autoButton, 2, 7, 1, 2)
-        layout.addWidget(readButton, 4, 7, 1, 2)
+        layout.addWidget(self.manualButton, 1, 7, 1, 2)
+        layout.addWidget(self.autoButton, 2, 7, 1, 2)
+        layout.addWidget(self.readButton, 4, 7, 1, 2)
 
         # creating the inputs
         moveCommand = QLineEdit()

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f04f2fc-7f8d-4a2b-bbce-1ae3a9c3c2b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/designer.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/designer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearCam/controller/vision_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/controller/vision_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearCam/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearCam/view/vision_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/view/vision_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +275,7 @@
       <workItem from="1581888138182" duration="1219000" />
       <workItem from="1581928663384" duration="11738000" />
       <workItem from="1581955071986" duration="111000" />
-      <workItem from="1581955224229" duration="1769000" />
+      <workItem from="1581955224229" duration="2984000" />
     </task>
     <servers />
   </component>
