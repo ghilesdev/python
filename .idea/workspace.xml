@@ -4,7 +4,6 @@
     <list default="true" id="0f04f2fc-7f8d-4a2b-bbce-1ae3a9c3c2b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearCam/controller/vision_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/controller/vision_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinearCam/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearCam/view/vision_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearCam/view/vision_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../placementcontinu" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -275,7 +274,8 @@
       <workItem from="1581888138182" duration="1219000" />
       <workItem from="1581928663384" duration="11738000" />
       <workItem from="1581955071986" duration="111000" />
-      <workItem from="1581955224229" duration="2984000" />
+      <workItem from="1581955224229" duration="4249000" />
+      <workItem from="1581976955880" duration="3854000" />
     </task>
     <servers />
   </component>
@@ -311,27 +311,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="159" width="714" height="665" key="EditFileWatcherDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427487835" />
-    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581670472702">
+    <state x="384" y="252" key="FileChooserDialogImpl" timestamp="1581980152743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581427188706" />
-    <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581670472702" />
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1580483964282">
+    <state x="384" y="252" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581980152743" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581980078686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580483964282" />
-    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1580483964282">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581980078686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580483964282" />
-    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1580483964282">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581980078686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580483964282" />
-    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1580483964282">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581980078686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580483964282" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581980078688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581980078688" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581980078686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581980078686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581980078686" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581980078688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581980078688" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1580468051276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -345,12 +361,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1581285238957" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1581955224241">
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1581977292146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1579965616421" />
     <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581410286885" />
-    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581955224241" />
+    <state x="407" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581977292146" />
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1581932084024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -365,6 +381,7 @@
     <SUITE FILE_PATH="coverage/python$pan.coverage" NAME="pan Coverage Results" MODIFIED="1580472491203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/python$multiprocessing.coverage" NAME="multiprocessing Coverage Results" MODIFIED="1580377760808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional_programming" />
     <SUITE FILE_PATH="coverage/python$parralel.coverage" NAME="parralel Coverage Results" MODIFIED="1580459819157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional_programming" />
+    <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1581980040869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearCam" />
     <SUITE FILE_PATH="coverage/python$functionnal.coverage" NAME="functionnal Coverage Results" MODIFIED="1580315087876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional_programming" />
   </component>
 </project>

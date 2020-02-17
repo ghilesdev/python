@@ -17,14 +17,16 @@ class GUI(QMainWindow):
         # create a main widget then add to it a layout
         # add all the widgets to the layout
         # layout = QVBoxLayout()
-        layout = QGridLayout()
-        widget = QWidget()
-        widget.setLayout(layout)
+        self.layout = QGridLayout()
+        self.widget = QWidget()
+        self.widget.setLayout(self.layout)
         # creating the main image viewer
-        image_view = QLabel("image widget")
-        pixmap = QPixmap("1.png")
-        image_view.setPixmap(pixmap)
+        self.image_view = QLabel("image widget")
+        self.pixmap = QPixmap("1.png")
+        self.image_view.setPixmap(self.pixmap)
+        self._createLayout()
 
+    def _createLayout(self):
         # creating the buttons
         # TODO mettre tout les widgets en self.widget !!
         self.manualButton = QPushButton("Avance Manuel")
@@ -32,25 +34,26 @@ class GUI(QMainWindow):
         self.readButton = QPushButton("ouvrir")
 
         # adding buttons to the layout
-        layout.addWidget(self.manualButton, 1, 7, 1, 2)
-        layout.addWidget(self.autoButton, 2, 7, 1, 2)
-        layout.addWidget(self.readButton, 4, 7, 1, 2)
+        self.layout.addWidget(self.manualButton, 1, 7, 1, 2)
+        self.layout.addWidget(self.autoButton, 2, 7, 1, 2)
+        self.layout.addWidget(self.readButton, 4, 7, 1, 2)
 
         # creating the inputs
         moveCommand = QLineEdit()
+        moveCommand.setPlaceholderText("(mm)")
         pathToImage = QLineEdit()
 
         # adding the labels
-        layout.addWidget(moveCommand, 0, 8)
-        layout.addWidget(pathToImage, 3, 8)
+        self.layout.addWidget(moveCommand, 0, 8)
+        self.layout.addWidget(pathToImage, 3, 8)
 
         # creating labels
         moveCommandlabel = QLabel("move")
         pathToImagelabel = QLabel("path")
 
         # adding label
-        layout.addWidget(moveCommandlabel, 0, 7)
-        layout.addWidget(pathToImagelabel, 3, 7)
+        self.layout.addWidget(moveCommandlabel, 0, 7)
+        self.layout.addWidget(pathToImagelabel, 3, 7)
 
         # creating left side bar (show camera and arduino connection)
         arduinoLabel = QLabel("Arduino Status")
@@ -61,19 +64,21 @@ class GUI(QMainWindow):
         camerastatus.setStyleSheet("color: green")
 
         # adding the left side bar
-        layout.addWidget(arduinoLabel, 0, 0)
-        layout.addWidget(arduinostatus, 1, 0)
-        layout.addWidget(cameraLabel, 3, 0)
-        layout.addWidget(camerastatus, 4, 0)
+        self.layout.addWidget(arduinoLabel, 0, 0)
+        self.layout.addWidget(arduinostatus, 1, 0)
+        self.layout.addWidget(cameraLabel, 3, 0)
+        self.layout.addWidget(camerastatus, 4, 0)
 
-        self.resize(pixmap.width(), pixmap.height())
-        image_view.setAlignment(Qt.AlignCenter)
-        layout.addWidget(image_view, 0, 1, 5, 5)
-        self.setCentralWidget(widget)
+        self.resize(self.pixmap.width(), self.pixmap.height())
+        self.image_view.setAlignment(Qt.AlignCenter)
+        self.layout.addWidget(self.image_view, 0, 1, 5, 5)
+        self.setCentralWidget(self.widget)
 
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    mainWindow = GUI()
-    mainWindow.show()
-    app.exec_()
+# commented this because the view is launched in
+# ..main.py
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     mainWindow = GUI()
+#     mainWindow.show()
+#     app.exec_()
